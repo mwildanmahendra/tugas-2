@@ -1,0 +1,64 @@
+body {
+	background-color: #D3D6D2;
+	background-image: url(gambarform.jpg);
+	background-size: 100%;
+	margin-right: 1px;
+}
+h1 {
+	text-align: center;
+	font-size: 50px;
+	color: #283520;
+	margin-top: 200px;
+}
+form {
+	margin:200px auto;
+	width: 500px;
+	color: #283520;
+}
+input{
+	padding: 10px;
+	font-size: inherit;
+}
+input[type="nama"] {
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border:2px ;
+	background: #FAF6D9;
+	margin-left: 350px;
+}
+input[type="email"] {
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border:2px ;
+	background: #FAF6D9;
+	margin-left: 350px;
+}
+input[type="username"] {
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border:2px ;
+	background: #FAF6D9;
+	margin-left: 350px;
+}
+
+input[type="confirm password"] {
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border:2px ;
+	background: #FAF6D9;
+	margin-left: 350px;
+}
+input[type="submit"] {
+	width: 345px;
+	height: 45px
+	border:none;
+	background: #283520;
+	color: white;
+}
+input:focus {
+	background: white;
+}
